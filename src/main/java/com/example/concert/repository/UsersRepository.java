@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface UsersRepository extends JpaRepository<User, Integer> {
-    public List<User> findAllByOrderByIdAsc();
+    List<User> findAllByOrderByIdAsc();
 }
